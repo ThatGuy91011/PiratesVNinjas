@@ -1,7 +1,8 @@
 #pragma once
 class GameDriver
 {
-	void DisplayCharacterStats();
+public:
+
 	void Intro();
 	int RandomRoll();
 };

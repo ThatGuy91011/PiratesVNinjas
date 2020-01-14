@@ -6,5 +6,10 @@ class Character :
 { 
 public:
 	std::string Name;
+	int GetHealth();
+	void SetHealth(int health);
+	void DisplayCharacterStats();
+private:
+	int Health;
 };
 

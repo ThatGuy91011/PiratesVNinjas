@@ -3,6 +3,7 @@
 class Ninja :
 	public Character
 {
+public:
 	Ninja();
 	void ThrowStars();
 };
