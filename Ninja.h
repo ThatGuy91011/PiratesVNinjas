@@ -6,5 +6,7 @@ class Ninja :
 public:
 	Ninja();
 	void ThrowStars();
+	int Attack() override;
+	void Help() override;
 };
 
